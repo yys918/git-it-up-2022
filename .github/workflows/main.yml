@@ -5,6 +5,6 @@ jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
-      - uses: action/checkout@v3 #default line
+      - uses: actions/checkout@v3 #default line
       - name: Say Hello World
         run: echo 'Hello, World'
